@@ -103,6 +103,9 @@ importers:
       '@elastic/elasticsearch':
         specifier: ^8.9.0
         version: 8.12.2
+      '@emergentmethods/asknews-typescript-sdk':
+        specifier: 0.2.0
+        version: 0.2.0
       '@getzep/zep-cloud':
         specifier: npm:@getzep/zep-js@next
         version: '@getzep/zep-js@2.0.0-rc.4(@langchain/core@0.1.63)(langchain@0.1.37(ijzok3mlrckmvw2ueprxquqvk4))'
@@ -425,9 +428,6 @@ importers:
 
   packages/server:
     dependencies:
-      '@emergentmethods/asknews-typescript-sdk':
-        specifier: 0.1.14
-        version: 0.1.14
       '@oclif/core':
         specifier: ^1.13.10
         version: 1.26.2
@@ -2461,8 +2461,8 @@ packages:
     resolution: {integrity: sha512-/SXVuVnuU5b4dq8OFY4izG+dmGla185PcoqgK6+AJMpmOeY1QYVNbWtCwvSvoAANN5D/wV+EBU8+x7Vf9EphbA==}
     engines: {node: '>=16'}
 
-  '@emergentmethods/asknews-typescript-sdk@0.1.14':
-    resolution: {integrity: sha512-0W/Vd3A4iLSWm0OYFOB/ZTA8y5wWhaOSjL2CAnAvjYE9zke3Dxs0bWe4FptWmn6TcVmzVP3leT0pmJNZydVDnw==}
+  '@emergentmethods/asknews-typescript-sdk@0.2.0':
+    resolution: {integrity: sha512-sMIgECODA33EOSdVRiNQTYXAHTXBZLVmb4s42c+sJDkkaazQdxghwR//Hcmz1mkSRXaDNOeRUWJc/WClhaabeQ==}
 
   '@emotion/babel-plugin@11.11.0':
     resolution: {integrity: sha512-m4HEDZleaaCH+XgDDsPF15Ht6wTLsgDTeR3WYj9Q/k76JtWhrJjcP4+/XlG8LGT/Rol9qUfOIztXeA84ATpqPQ==}
@@ -19322,7 +19322,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@emergentmethods/asknews-typescript-sdk@0.1.14': {}
+  '@emergentmethods/asknews-typescript-sdk@0.2.0': {}
 
   '@emotion/babel-plugin@11.11.0':
     dependencies:

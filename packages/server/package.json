@@ -54,7 +54,6 @@
     },
     "license": "SEE LICENSE IN LICENSE.md",
     "dependencies": {
-        "@emergentmethods/asknews-typescript-sdk": "0.1.14",
         "@oclif/core": "^1.13.10",
         "@types/lodash": "^4.14.202",
         "@types/uuid": "^9.0.7",

@@ -27,6 +27,7 @@
         "@dqbd/tiktoken": "^1.0.7",
         "@e2b/code-interpreter": "^0.0.5",
         "@elastic/elasticsearch": "^8.9.0",
+        "@emergentmethods/asknews-typescript-sdk": "0.2.0",
         "@getzep/zep-cloud": "npm:@getzep/zep-js@next",
         "@getzep/zep-js": "^0.9.0",
         "@gomomento/sdk": "^1.51.1",
